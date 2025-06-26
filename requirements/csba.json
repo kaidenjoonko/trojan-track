@@ -1,0 +1,207 @@
+{
+    "major": "Computer Science and Business Administration",
+  
+    "composition/writing": {
+      "composition/writing_core": [
+        { "course": "WRIT150", "units": 4, "completed": false },
+        { "course": "WRIT340", "units": 3, "completed": false }
+      ],
+      "composition/writing_overall": {
+        "required_units": 7,
+        "units_left": 7,
+        "requirement_met": false
+      }
+    },
+  
+    "general_education": {
+      "a": [
+        { "course": "", "units": 4, "completed": false }
+      ],
+      "b": [
+        { "course": "", "units": 4, "completed": false },
+        { "course": "", "units": 4, "completed": false }
+      ],
+      "c": [
+        { "course": "", "units": 4, "completed": false },
+        { "course": "", "units": 4, "completed": false }
+      ],
+      "d": [
+        { "course": "", "units": 4, "completed": false }
+      ],
+      "e": [
+        { "course": "", "units": 4, "completed": false }
+      ],
+      "f": [
+        { "course": "", "units": 4, "completed": false }
+      ],
+      "g": [
+        { "course": "", "units": 4, "completed": false }
+      ],
+      "h": [
+        { "course": "", "units": 4, "completed": false }
+      ],
+      "general_education_overall": {
+        "required_units": 24,
+        "units_left": 24,
+        "requirement_met": false
+      }
+    },
+  
+    "pre_major_requirements": {
+      "engineering": [
+        { "course": "ENGR102", "units": 2, "completed": false }
+      ],
+      "engineering_overall": {
+        "required_units": 2,
+        "units_left": 2,
+        "requirement_met": false
+      },
+  
+      "mathematics": [
+        { "course": "MATH125", "units": 4, "completed": false },
+        {
+          "name": "Calc II",
+          "options": [
+            { "course": "MATH126", "units": 4, "completed": false },
+            { "course": "MATH129", "units": 4, "completed": false }
+          ]
+        },
+        {
+          "name": "Linear Algebra",
+          "options": [
+            { "course": "EE141L", "units": 4, "completed": false },
+            { "course": "MATH225", "units": 4, "completed": false }
+          ]
+        }
+      ],
+      "mathematics_overall": {
+        "required_units": 12,
+        "units_left": 12,
+        "requirement_met": false
+      },
+  
+      "basic_science": {
+        "options": [
+          { "course": "BISC120", "units": 4, "completed": false },
+          { "course": "BISC121", "units": 4, "completed": false },
+          { "course": "CHEM105a", "units": 4, "completed": false },
+          { "course": "CHEM115a", "units": 4, "completed": false },
+          { "course": "PHYS151", "units": 4, "completed": false },
+          { "course": "PHYS161", "units": 4, "completed": false }
+        ],
+        "basic_science_overall": {
+          "required_units": 4,
+          "units_left": 4,
+          "requirement_met": false
+        }
+      }
+    },
+  
+    "major_requirements": {
+      "statistics_and_probability": {
+        "options": [
+          { "course": "BUAD310", "units": 4, "completed": false },
+          { "course": "EE364", "units": 4, "completed": false },
+          { "course": "MATH407", "units": 4, "completed": false }
+        ],
+        "statistics_and_probability_overall": {
+          "required_units": 4,
+          "units_left": 4,
+          "requirement_met": false
+        }
+      },
+  
+      "computer_science_core": [
+        { "course": "CSCI103L", "units": 4, "completed": false },
+        { "course": "CSCI104L", "units": 4, "completed": false },
+        { "course": "CSCI109", "units": 2, "completed": false },
+        { "course": "CSCI170", "units": 4, "completed": false },
+        { "course": "CSCI201L", "units": 4, "completed": false },
+        { "course": "CSCI270", "units": 4, "completed": false },
+        { "course": "CSCI310", "units": 4, "completed": false },
+        {
+          "name": "Capstone",
+          "options": [
+            { "course": "CSCI401", "units": 4, "completed": false },
+            { "course": "CSCI404", "units": 4, "completed": false }
+          ]
+        }
+      ],
+      "computer_science_core_overall": {
+        "required_units": 30,
+        "units_left": 30,
+        "requirement_met": false
+      },
+  
+      "business_core": [
+        { "course": "ACCT410x", "units": 4, "completed": false },
+        { "course": "BUAD302", "units": 4, "completed": false },
+        { "course": "BUAD304", "units": 4, "completed": false },
+        { "course": "BUAD306", "units": 4, "completed": false },
+        { "course": "BUAD307", "units": 4, "completed": false },
+        { "course": "BUAD311", "units": 4, "completed": false },
+        { "course": "BUAD497", "units": 4, "completed": false },
+        { "course": "ECON351x", "units": 4, "completed": false },
+        { "course": "ECON352x", "units": 4, "completed": false }
+      ],
+      "business_core_overall": {
+        "required_units": 36,
+        "units_left": 36,
+        "requirement_met": false
+      },
+  
+      "technical_electives": {
+        "requirements": [
+          {
+            "name": "CS Electives",
+            "options": [
+              { "course": "CSCI360", "units": 4, "completed": false },
+              { "course": "CSCI430", "units": 4, "completed": false },
+              { "course": "CSCI485", "units": 4, "completed": false }
+            ]
+          },
+          {
+            "name": "Business Electives",
+            "options": [
+              { "course": "BAEP452", "units": 4, "completed": false },
+              { "course": "BAEP453", "units": 4, "completed": false },
+              { "course": "BUAD301", "units": 3, "completed": false },
+              { "course": "DSO431", "units": 4, "completed": false },
+              { "course": "DSO433", "units": 4, "completed": false },
+              { "course": "DSO443", "units": 4, "completed": false },
+              { "course": "DSO462", "units": 2, "completed": false },
+              { "course": "MKT425", "units": 4, "completed": false }
+            ]
+          }
+        ],
+        "technical_electives_overall": {
+          "required_units": 9,
+          "units_left": 9,
+          "requirement_met": false
+        }
+      }
+    },
+  
+    "free_electives": {
+      "electives": [
+        { "course": "", "units": null, "completed": null },
+        { "course": "", "units": null, "completed": null },
+        { "course": "", "units": null, "completed": null },
+        { "course": "", "units": null, "completed": null },
+        { "course": "", "units": null, "completed": null },
+        { "course": "", "units": null, "completed": null },
+        { "course": "", "units": null, "completed": null },
+        { "course": "", "units": null, "completed": null },
+        { "course": "", "units": null, "completed": null },
+        { "course": "", "units": null, "completed": null }
+      ],
+      "free_electives_overall": {
+        "required_units": 7,
+        "units_left": 7,
+        "requirement_met": false
+      }
+    },
+  
+    "total_units_required": 128
+  }
+  
