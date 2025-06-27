@@ -11,16 +11,7 @@ TrojanTrack uses a custom parser, curated academic data, and an AI planning agen
 - 📄 **STARS Report Upload** – Upload your academic record directly
 - 🧠 **AI-Powered Schedule Generation** – Get a plan that balances course difficulty, credits, and requirements
 - 🎯 **Custom Preferences** – Add constraints like "only 12 units next semester" or "finish GE by junior year"
-- 💬 **Interactive Planner** – Refine your schedule via an intelligent chat interface
 - 📚 **Manually Curated Course Knowledge Base** – Class prerequisites, unit count, and difficulty scores for accurate planning
-
-## 🧱 Tech Stack
-
-- **Frontend**: React + TailwindCSS
-- **Backend**: FastAPI (Python)
-- **AI/LLM**: OpenAI GPT-4 + Semantic Kernel
-- **Parsing**: Python (pdfplumber or BeautifulSoup)
-- **Data**: Custom course catalog in JSON
 
 ## 🚀 Getting Started
 
@@ -29,17 +20,21 @@ TrojanTrack uses a custom parser, curated academic data, and an AI planning agen
    git clone https://github.com/yourusername/trojantrack.git
    cd trojantrack
 
-2. Set up the backend
+2. Add up the Stars Report
     ```bash
-    Copy
-    Edit
-    cd backend
-    pip install -r requirements.txt
-    uvicorn app:app --reload
-3. Set up the frontend
+    download stars report from myusc->oasis-
+    rename it sampe_stars.pdf
+    add it to parser file
+3. Parse Stars Report
     ```bash
-    Copy
-    Edit
-    cd frontend
-    npm install
-    npm run dev
+    cd parser
+    python3 parser.py
+5. Create Schedule
+    ```bash
+    cd ..
+    cd consuelor
+    python3 agent.py
+   
+
+
+    
